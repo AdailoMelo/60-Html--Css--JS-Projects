@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 50px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.container * {
+    margin-bottom: 15px;
+}
+
+.container .main-title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container .input-box {
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.container .btn-calculate {
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    height: 45px;
+    color: white;
+    background-color: rgb(154, 217, 91);
+    font-size: 1.2rem;
+}
